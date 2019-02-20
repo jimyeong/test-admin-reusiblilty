@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Router } from 'react-router';
 import {createBrowserHistory} from 'history';
+import Dashboard from './pages/Dashboard';
+
 
 const history = createBrowserHistory();
 
@@ -16,8 +18,7 @@ class App extends React.Component<any> {
         return(
             <Router history={ history }>
                 <React.Fragment>
-                    hello world
-                    
+                    <Dashboard/>
                 </React.Fragment>
             </Router>
         )

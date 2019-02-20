@@ -1,0 +1,31 @@
+@ft-color-bright: #eee;
+@ft-color-dark: #666;
+@border-radius: 6px;
+
+.room-info{
+    box-sizing: border-box;
+    padding: 5px 25px 25px;
+    border-radius: @border-radius;
+    .room-info-outer{
+        padding: 25px;
+        background-color: #fff;
+        box-sizing: border-box;
+        border-radius: @border-radius;
+    }
+    .tit-mid{
+        color: @ft-color-bright;
+    }
+    .badge{
+        width: 100%;
+    }
+    .card-item{
+        img{
+            min-height: 213px;
+        }
+    }
+    .add-card-item{
+        .tit-mid{
+            color: @ft-color-dark;
+        }
+    }
+}

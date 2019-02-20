@@ -1,0 +1,33 @@
+@boder-radius: 6px;
+@tit-sm-dark: rgb(68,68,68);
+.share-space{
+    margin-top: 18px;
+    .share-space-outer{
+        background-color: #fff;
+        border-radius: @boder-radius;
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
+    .title-area{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eee;
+    }
+    .tit-sm{
+        font-size: 500px;
+        color: @tit-sm-dark;
+        font-size: 18px;
+    }
+    .share-space-thumb{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .thumb-item + .thumb-item{
+        margin-left: 20px;
+
+    }
+}
